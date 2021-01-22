@@ -7,17 +7,18 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
-
-
-	    <header>
 			<nav>
 			<div class="wrapper">
 				<div class="logo">
 				  <span><a href="https://github.com/Vladyslavos">Vladyslavos</a></span>
 				</div>
+				  <input type="radio" name="slider" id="menu-btn">
+                  <input type="radio" name="slider" id="close-btn">
 				<ul class="nav-links">
+					<label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
 					<li>
 						<a href="#!">Home</a>
 					</li>
@@ -25,7 +26,9 @@
 						<a href="#!">About</a>
 					</li>
 					<li>
-						<a href="#!">Dropdown menu</a>
+						<a href="#" class="desktop-item">Dropdown Menu</a>
+						<input type="checkbox" id="showDrop">
+                        <label for="showDrop" class="mobile-item">Dropdown Menu</label>
 						<ul class="drop-menu">
 							<li><a href="#!">Python</a></li>
 							<li><a href="#!">JavaScript</a></li>
@@ -38,6 +41,8 @@
 
 			       <li>
 			       	<a href="#!">Mega Menu</a>
+			       	<input type="checkbox" id="showMega">
+			       	<label for="showMega" class="mobile-item">Mega Menu</label>
 			       	<div class="mega-box">
 			       		<div class="content">
 			       			<div class="row">
@@ -55,7 +60,7 @@
 			       			</div>
 
 			       			<div class="row">
-			       				<p class="name">Email Services</p>
+			       				<p class="name">Design Services</p>
 			       				<ul class="mega-links">
 			       					<li> <a href="#!">Graphics</a></li>
 			       					<li> <a href="#!">Vectors</a></li>
@@ -65,7 +70,7 @@
 			       			</div>
 
 			       			<div class="row">
-			       				<p class="name">Email Services</p>
+			       				<p class="name">Security Services</p>
 			       				<ul class="mega-links">
 			       					<li> <a href="#!">Site Seal</a></li>
 			       					<li> <a href="#!">VPS Hosting</a></li>
@@ -82,10 +87,11 @@
 						<a href="#!">Feedback</a>
 					</li>
 				</ul>
-
+                <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
 			</div>
 		</nav>
-    </header>
-	
+    <div class="body-text">
+    <div class="title">Responsive Dropdown and Mega Menu</div>
+  </div>
 </body>
 </html>
