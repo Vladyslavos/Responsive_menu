@@ -2,5 +2,5 @@
 <p align="center"><samp>Responsive menu using only HTML and CSS</samp></p>
 
 
-<p align ="center">![Hnet-image](https://user-images.githubusercontent.com/67589338/105577127-6a90be80-5d80-11eb-9276-d310b30c69d3.gif)</p>
+<p align ="center"> ![Hnet-image](https://user-images.githubusercontent.com/67589338/105577127-6a90be80-5d80-11eb-9276-d310b30c69d3.gif) </p>
 
